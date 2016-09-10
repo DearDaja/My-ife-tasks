@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>零基础HTML及CSS编码（二）</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color: #e8e8e8;
+			font-family: "Microsoft YaHei";
+		}
+		.mytitle{
+			background-color: #575757;
+			width: 100%;
+			height: 50px;
+		}
+		.baidulogo{
+			float: left;
+			width: 100px;
+			height: 50px;
+			padding-left: 30px;
+		}
+		.mynavul{
+			float: right;
+			padding-right: 10px;
+		}
+		.mynavul li{
+			float: left;
+			padding-top: 18px;
+			padding-right: 20px;
+			font-size: 14px;
+		}
+		.mynavul a{
+			text-decoration: none;
+			color: #ffffff;
+		}
+		.mychecked{
+			color: #878787;
+		}
+		.myleft{
+			margin-top: 20px;
+			margin-right: 440px;
+		}
+		.mymain{
+			margin:20px 15px;
+			background-color: white;
+			border-style: solid;
+			border-color: #c5c1aa;
+			border-width: 1px 2px 2px 1px;
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-bottom: 40px;
+			line-height: 180%;
+			overflow: auto;
+		}
+		h1{
+			font-size: 20px;
+		}
+		h2{
+			font-size: 16px;
+		}
+		.author{
+			color: #737373;
+		}
+		.myauthor{
+			font-size: 13px;
+			color: #737373;
+		}
+		.mytext{
+			font-size: 14px;
+			text-indent: 2em;
+			list-style: none;
+			padding-right: 20px;
+		}
+		.myli{
+			border-style: solid;
+			border-color: #c5c1aa;
+			border-width: 1px;
+			width: 200px;
+			height: 200px;
+			text-align: center;
+			list-style: none;
+			margin-top: 25px;
+			margin-left: 2em;
+			margin-bottom: 20px;
+			float: left;
+		}
+		.myimg{
+			width: 150px;
+			height: 150px;
+			padding-left: 25px;
+			padding-right: 25px;
+			padding-bottom: 25px;
+		}
+		table{
+			width: 98%;
+		}
+		tr:first-child{
+			background-color: #575757;
+			color: #ffffff;
+		}
+		tr:last-child{
+			background-color: #e8e8e8;
+		}
+		.myright{
+			position: absolute;
+			right: 20px;
+			top: 70px;
+			width: 400px;
+			background-color: white;
+			border-style: solid;
+			border-color: #c5c1aa;
+			border-width: 1px 2px 2px 1px;
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-bottom: 40px;
+			line-height: 180%;
+		}
+		.myh1{
+			border-left-style: solid;
+			border-left-width: 3px;
+			border-left-color: #878787;
+			padding-left: 20px;
+		}
+		.mysubmit{
+			width: 380px;
+			background-color: #436eee;
+			text-align: center;
+			padding: 15px;
+			border-radius: 10px;
+			color: #ffffff;
+			font-size: 20px;
+
+		}
+		label{
+			text-align: right;
+			float:left;
+			width: 170px;
+			padding-right: 20px;
+			height: 25px;
+		}
+		.myright p{
+			text-indent: 195px;
+		}
+		textarea{
+			width: 180px;
+			height: 100px;
+		}
+		.myfoot{
+			background-color: #575757;
+			width: 100%;
+			height: 40px;
+			text-align: center;
+			color: #ffffff;
+			padding-top: 20px;
+			position: absolute;
+		}
+	
+	</style>
+</head>
+<body>
+<!-- 顶部导航-->
+<div class="mytitle">
+	<img src="baidulogo.jpg" class="baidulogo">
+	<div class="mynavul">
+	<ul>
+		<li><a href="#">导航链接一</span></a></li>
+		<li><a href="#">导航链接二</a></li>
+		<li><a href="#">导航链接三</a></li>
+		<li><a href="#"><span class="mychecked">导航链接四</a></li>
+	</ul>
+	</div>	
+</div>
+
+<div class="myleft">
+<!-- 第一篇文章-->
+<article class="mymain">
+<h1>文章一级标题</h1>
+<h2 class="author">文章二级标题</h2>
+<p class="author myauthor">文章作者&nbsp&nbsp文章发表时间</p>
+<p class="mytext">这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，</br>换行了</br>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了</br>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+<img src="http://img1.3lian.com/img13/c2/94/36.jpg">
+<p class="mytext">这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，</br>换行了</br>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了</br>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" target="block">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+</article>
+
+<!-- 第二篇文章-->
+<article class="mymain">
+<h1>另一篇文章一级标题</h1>
+<h2 class="author">文章二级标题</h2>
+<p class="author myauthor">文章作者&nbsp&nbsp文章发表时间</p>
+<p class="mytext">这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，</br>换行了</br>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了</br>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+<img src="http://img1.3lian.com/img13/c2/94/36.jpg">
+<ul class="mytext">
+	<li>列表项目一</li>
+	<li>列表项目二</li>
+	<li>列表项目三</li>
+</ul>
+</article>
+
+<!-- 图片列表-->
+<div class="mymain">
+<h1>图片</h1>
+<ul>
+	<li class="myli">好看的图片</br><img src="http://img1.3lian.com/img13/c2/94/36.jpg" class="myimg"></li>
+	<li class="myli">好看的图片</br><img src="http://img1.3lian.com/img13/c2/94/36.jpg" class="myimg"></li>
+	<li class="myli">好看的图片</br><img src="http://img1.3lian.com/img13/c2/94/36.jpg" class="myimg"></li>
+	<li class="myli">好看的图片</br><img src="http://img1.3lian.com/img13/c2/94/36.jpg" class="myimg"></li>
+	<li class="myli">好看的图片</br><img src="http://img1.3lian.com/img13/c2/94/36.jpg" class="myimg"></li>
+	<li class="myli">好看的图片</br><img src="http://img1.3lian.com/img13/c2/94/36.jpg" class="myimg"></li>
+	<li class="myli">好看的图片</br><img src="http://img1.3lian.com/img13/c2/94/36.jpg" class="myimg"></li>
+	<li class="myli">好看的图片</br><img src="http://img1.3lian.com/img13/c2/94/36.jpg" class="myimg"></li>
+</ul>
+</div>
+
+<!-- 第三篇文章-->
+<article class="mymain">
+	<h1>最后一篇文章一级标题</h1>
+	<h2 class="author">文章二级标题</h2>
+	<p class="author myauthor">文章作者&nbsp文章发表时间</p>
+	<ul class="mytext">
+		<li>1.排名1</li>
+		<li>2.排名2</li>
+		<li>3.排名3</li>
+	</ul>
+	<p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
+	<div class="mytable">
+	<table border="1">
+		<tr>
+			<td>表头</td>
+			<td>表头</td>
+			<td>表头</td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>表内容单元格</td>
+			<td>表内容单元格</td>
+			<td><a href="#">操作</a></td>
+		</tr>
+		<tr>
+			<td>总计</td>
+			<td colspan="2">1000</td>
+		</tr>
+	</table>
+	</div>
+</article>
+
+
+<!-- 表单-->
+<div class="myright">
+<h1 class="myh1">这里以后是一个侧栏，这是侧栏的标题</h1>
+<form>
+    <label>请输入邮箱地址</label>
+    <input type="email" name="user_email" value="这是一个文本输入框">
+    <p class="myauthor">邮箱地址请按要求格式输入</p>
+</form>
+<form>
+    <label>请输入密码</label>
+    <input type="password" name="user_passwords1" value="这是一个文本输入框">
+    </br>
+    <label>请重复输入密码</label>
+    <input type="password" name="user_passwords2" value="这是一个文本输入框">
+    <p class="myauthor">密码请为6-16位英文数字</p>
+</form>
+<form>
+	<label>性别</label>
+	<input type="radio" name="sex" checked="">男
+	<input type="radio" name="sex">女
+	</br>
+	<label>城市</label>
+	<select>
+		<option value="beijing">北京</option>
+		<option value="shanghai">上海</option>
+		<option value="nanjing">南京</option>
+		<option value="guangzhou">广州</option>
+	</select>
+	</br>
+	<label>爱好</label>
+	<input type="checkbox" name="sport">运动
+	<input type="checkbox" name="art">艺术
+	<input type="checkbox" name="science">科学
+	</br>
+	<label>个人描述</label>
+	<textarea name="user_text">这是一个多行输入框，输入您的个人描述</textarea>
+	</br>
+	<input type="submit" name="mysubmit" value="确认提交" class="mysubmit">
+</form>
+</div>
+<!-- 底部版权-->
+<div class="myfoot">
+<p>版权所有&copy</p>
+</div>
+</body>
+</html>
